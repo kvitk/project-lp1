@@ -1,0 +1,5 @@
+Open Sans 400 700 semibold
+Raleway 400 700
+Pe-icon-7-stroke 400 bold
+FontAwesome
+Georgia 400
