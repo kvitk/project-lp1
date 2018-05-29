@@ -8,6 +8,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
 @import url('../fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css');
+@import url('../fonts/Georgia/9605.ttf');
 
 /* ----------------- Body ----------------- */
 
@@ -42,6 +43,16 @@ h3 {
     font-weight: 800;
     font-size: 18px;
     margin-top: 2px;
+}
+h4 {
+    color: #062033;
+    font-size: 18px;
+    font-weight: 600;
+}
+h5 {
+    color: #73828d;
+    font-size: 13px;
+    font-weight: 400;
 }
 .section_title {
     display: flex;
@@ -362,14 +373,63 @@ video {
     background: #16453c;
 }
 .team_content h4 {
-    color: #062033;
-    font-size: 18px;
-    font-weight: 600;
     margin-bottom: 12px;
 }
-.team_content h5 {
-    color: #73828d;
-    font-size: 13px;
+
+/* ----------------- What our customer’s say --------------- */
+
+.section-reviews_card {
+    width: 100px;
+    margin: 35px auto 22px;
+}
+.reviews_card-photo {
+    border: 2px solid #c5c8c8;
+    border-radius: 50%;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.reviews_card-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100%;
+    opacity: 0;
+}
+.reviews_card-item:first-child {
+    opacity: 1;
+}
+.reviews_card-names {
+    position: relative;
+    text-align: center;
+    margin-bottom: 91px;
+}
+.reviews_card-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.reviews_card-name h4 {
+    margin-bottom: 3px;
+}
+.reviews_card-name:nth-child(1) {
+    opacity: 1;
+}
+.section-reviews_text {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-reviews_text span {
+    font-size: 150px;
+    color: #efefef;
+    font-family: 'Georgia';
     font-weight: 400;
 }
 
