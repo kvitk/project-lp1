@@ -425,13 +425,24 @@ video {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    color: #282528;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.section-reviews_text span {
+.reviews_text-before {
     font-size: 150px;
     color: #efefef;
     font-family: 'Georgia';
     font-weight: 400;
 }
+.reviews_text-after {
+    margin-top: 90px;
+}
+
 
 /* ----------------- Footer --------------- */
 
