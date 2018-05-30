@@ -378,6 +378,9 @@ video {
 
 /* ----------------- What our customer’s say --------------- */
 
+.section-reviews {
+    margin-bottom: 127px;
+}
 .section-reviews_card {
     width: 100px;
     margin: 35px auto 22px;
@@ -405,7 +408,7 @@ video {
 .reviews_card-names {
     position: relative;
     text-align: center;
-    margin-bottom: 91px;
+    margin-bottom: 113px;
 }
 .reviews_card-name {
     position: absolute;
@@ -423,7 +426,7 @@ video {
 }
 .section-reviews_text {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 47px;
     text-align: center;
     color: #282528;
     font-size: 18px;
@@ -440,11 +443,34 @@ video {
     font-weight: 400;
 }
 .reviews_text-after {
-    margin-top: 90px;
+    margin-top: 50px;
+}
+.section-reviews_buttons {
+    display: flex;
+    justify-content: center;
+}
+.section-reviews_button {
+    width: 10px;
+    height: 10px;
+    background-color: #d4d3d4;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.section-reviews_button-active {
+    background-color: #1ab798;
 }
 
-
 /* ----------------- Footer --------------- */
+
+footer {
+    width: 100%;
+    background: url('../images/footer/background.jpg') no-repeat #ffffff;
+    padding: 63px 0 21px;
+}
+footer .section_title-item h2 {
+    color: #ffffff;
+}
 
 /* ----------------- Jump Buttons --------- */
 
